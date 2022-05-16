@@ -31,7 +31,7 @@ export class FooterPage extends React.Component {
                                     <li className="list-inline-item">
                                         <h3 className="mb-1">Register Now !</h3>
                                     </li>
-                                    <li className="list-inline-item mt-3"><a href="#" className="btn btn-danger btn-rounded">Sign up!</a></li>
+                                    <li className="list-inline-item mt-3"><a href="/sign-up" className="btn btn-danger btn-rounded">Sign up!</a></li>
                                 </ul>
                             </div>
                         </Col>
