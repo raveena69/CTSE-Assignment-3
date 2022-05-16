@@ -4,15 +4,15 @@ WORKDIR /core
 
 ENV PATH="./node_modules/.bin:$PATH"
 
-RUN apk update
-RUN apk add nodejs
-
 RUN npm install
 
 COPY . .
+
+RUN apk update
+RUN apk add nodejs
 
 # RUN npm run build
 
 EXPOSE 3000
 
-CMD [ "npm", "start" ]
+CMD [ "npm", "run", "start" ]
